@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Mood Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button class="theme-btn">🌙</button>
+
+    <div class="container">
+
+        <h1>🧠 AI Mood Detector</h1>
+        <p class="subtitle">
+            How are you feeling today?
+        </p>
+
+        <div class="moods">
+
+            <div class="card happy" onclick="detectMood('happy')">
+                😄 Happy
+            </div>
+
+            <div class="card sad" onclick="detectMood('sad')">
+                😢 Sad
+            </div>
+
+            <div class="card angry" onclick="detectMood('angry')">
+                😡 Angry
+            </div>
+
+            <div class="card tired" onclick="detectMood('tired')">
+                😴 Tired
+            </div>
+
+        </div>
+
+
+        <div class="result">
+
+            <h2 id="title">
+                Select your mood
+            </h2>
+
+            <p id="quote">
+                Your AI assistant will suggest something amazing.
+            </p>
+
+            <div id="music">
+                🎵 Music Recommendation appears here
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
